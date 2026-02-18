@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "History Cleaner Pro by HVS",
+  "version": "1.0",
+  "description": "Modern tool to selectively search and delete Chrome history.",
+  "author": "Harsh Vardhan Solanki",
+  "permissions": [
+    "history"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Clean History",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
